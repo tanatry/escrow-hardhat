@@ -1,16 +1,26 @@
 body {
   background-color: #eee;
-  display: flex;
-  font-family: 'Muli', sans-serif;
+    display: flex;
+    font-family: 'Muli', sans-serif;
+    flex-direction: column;
 }
 
-.contract, .existing-contracts {
+.contract  {
   margin: 20px;
-  display: inline-block;
   padding: 40px;
   border: 1px solid #ddd;
   background-color: #fff;
+  width: 30%;
 }
+
+.existing-contracts {
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 70%;
+}
+
 
 h1 {
   margin: 10px;
@@ -22,7 +32,7 @@ label {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  color: #aaa;
+  color: #030303;
   margin: 20px;
 }
 
